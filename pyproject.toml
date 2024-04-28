@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Projeto de Machine Learning usando Hydra e Poetry"
+version = "0.1.0"
+description = "Neste pequeno projeto aprenderemos a usar o Hydra e poetry."
+authors = ["EddyGiusepe <eddychirinos.unac@gmail.com>"]
+license = "Apache License"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "2.2.2"
+omegaconf = "2.3.0"
+scikit-learn = "1.4.2"
+hydra-core = "1.3.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
